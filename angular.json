@@ -18,6 +18,7 @@
           "builder": "@angular-devkit/build-angular:application",
           "options": {
             "outputPath": "dist/frontend-store",
+            "baseHref": "/frontend-store/",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -120,6 +121,7 @@
   "cli": {
     "schematicCollections": [
       "@angular-eslint/schematics"
-    ]
+    ],
+    "analytics": false
   }
 }
