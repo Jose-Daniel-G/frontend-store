@@ -2,15 +2,14 @@ import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, ReactiveFormsModule, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
-import { LoginService } from '../../services/auth/login.service';
-import { LoginRequest } from '../../services/auth/loginRequest';
+import { LoginService } from '../../core/services/auth/login.service';
+import { LoginRequest } from '../../core/services/auth/loginRequest';
 
 @Component({
   selector: 'app-login',
   standalone: true,
   imports: [ReactiveFormsModule, CommonModule],
   templateUrl: './login.component.html',
-  styleUrls: ['./login.component.css'], // Cambia `styleUrl` a `styleUrls`
 })
 export class LoginComponent implements OnInit {
   loginError: string ="";

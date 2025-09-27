@@ -8,7 +8,6 @@ import { LoginComponent } from './auth/login/login.component';
   standalone: true,
   imports: [RouterOutlet, HeaderComponent,RouterLink, LoginComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
 })
 export class AppComponent {
   title = 'frontend-store';

@@ -8,7 +8,6 @@ import ProductListComponent from '../../products/features/product-list/product-l
   standalone: true,
   imports: [RouterOutlet,HeaderComponent, ProductListComponent],
   templateUrl: './layout.component.html',
-  styleUrl: './layout.component.css'
 })
 export default class LayoutComponent {
 
